@@ -1,5 +1,5 @@
 // ------------
-// Light an LED
+// Blink an internal LED
 // ------------
 
 // First, we're going to make some variables.
@@ -26,15 +26,18 @@ void setup() {
 
 // Next we have the loop function, the other essential part of a microcontroller program.
 // This routine gets repeated over and over, as quickly as possible and as many times as possible, after the setup function is called.
-// In this case, we are only doing 1 thing, so you won't notice any change as the loop repeats.
-// Note: Code that blocks for too long (like more than 5 seconds), can make weird things happen (like dropping the network connection).
+// In this case, we will turn on "led", wait for 1 second (1000 milliseconds), then turn the light back off and wait for 1 second.
+// This will be executed repeatedly by our loop function to create a blinking LED.
 
 void loop() {
   // To light the LED, we will set the voltage going to "led" to HIGH.
   digitalWrite(led, HIGH);
+  // To pause, we will use the delay function and give it a time of 1000 in milliseconds.
+  delay(1000);
 
-  // Pins behave differently based on how much (or little) voltage is sent to them.
-  // Digital pins only accept two values, HIGH and LOW.  HIGH turns the pin on while LOW leaves it off.
-
+  // To turn off the LED, we will set the voltage going to "led" to LOW.
+  digitalWrite(led, LOW);
+  // Once again, we will pause using the delay function and passing it a time of 1000 in milliseconds.
+  delay(1000);
 }
 
