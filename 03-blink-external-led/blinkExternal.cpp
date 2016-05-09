@@ -5,7 +5,7 @@
 // First, we're going to make some variables.
 // This is our "shorthand" that we'll use throughout the program:
 
-int led = D7; // Instead of writing D7 over and over again, we'll write "led".
+int led = D0; // Instead of writing D7 over and over again, we'll write "led".
 // This one is the little blue LED on your Photon next to pin D7.
 // This LED is tied directly to pin D7, meaning you can activate it by passing voltage to pin D7.
 

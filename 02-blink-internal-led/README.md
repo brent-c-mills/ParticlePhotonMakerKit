@@ -38,6 +38,6 @@ If you have not already done so, install the Particle app on your phone.  Click 
 3. Click on the < > symbol (Code), then scroll down and click the CREATE NEW APP button.  You will be prompted to give your app a title.  Let's call this one "blinkInternalLED".
     4. Your new app will contain only one file called "blinkinternalled.ino".  This file will contain a blank setup() function and a blank loop() function.  Functions are defined with a type ("void" for this example), a name followed by parenthesis (either "setup" or "loop" for this example), and a set of braces which are used to contain each function.
 5. We can now take the code from blinkInternal.cpp and paste it into blinkinternalled.ino.
-6. Once you have pasted the code into the lightled.ino file, click on the check mark icon along the left-hand menu.  This will verify the code - check it over to ensure there are no obvious errors.
+6. Once you have pasted the code into the blinkinternalled.ino file, click on the check mark icon along the left-hand menu.  This will verify the code - check it over to ensure there are no obvious errors.
 7. Finally, click the lightning bolt icon along the left-hand menu in order to "flash" your Photon with the new code - meaning to send your new code to the Photon and overwrite any existing code on the device.
     8. Your Photon's LED should flash magenta for a moment (meaning it is flashing the new firmware from the build.particle.io website), then go back to "breathing" cyan.  However, now the blue LED should also be blinking at 1-second intervals.
