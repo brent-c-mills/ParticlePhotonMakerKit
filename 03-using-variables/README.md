@@ -1,5 +1,5 @@
 # Particle Photon Maker Kit:
-## Lesson 3: Blink an External LED
+## Lesson 3: Using Variables :: Blink an External LED
 Project code / wiring tutorial to blink an external LED using your Particle Photon.
 
                    +-----+

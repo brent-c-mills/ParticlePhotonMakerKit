@@ -1,5 +1,5 @@
 # Particle Photon Maker Kit:
-## Lesson 2: Blink an Internal LED
+## Lesson 2: Blink an LED
 Project code / wiring tutorial to blink a built-in LED on your Particle Photon.
 
                    +-----+
