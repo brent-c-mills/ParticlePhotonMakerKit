@@ -40,7 +40,7 @@ If you have not already done so, install the Particle app on your phone.  Click 
 5. We can now take the code from blinkExternal.cpp and paste it into blinkexternalled.ino.
 6. Once you have pasted the code into the blinkexternalled.ino file, click on the check mark icon along the left-hand menu.  This will verify the code - check it over to ensure there are no obvious errors.
 7. Finally, click the lightning bolt icon along the left-hand menu in order to "flash" your Photon with the new code - meaning to send your new code to the Photon and overwrite any existing code on the device.
-    8. Your Photon's LED should flash magenta for a moment (meaning it is flashing the new firmware from the build.particle.io website), then go back to "breathing" cyan.  However, now the blue LED should also be blinking at 1-second intervals.
+    8. Your Photon's LED should flash magenta for a moment (meaning it is flashing the new firmware from the build.particle.io website), then go back to "breathing" cyan.  However, now the external LED should also be blinking at 1-second intervals.
 
 ## Notes:
 You'll notice that the only change we made from tutorial 2 to tutorial 3 was to change from D7 to D0.  Even though we reference "led" 4 times in our code, only 1 character needs to change to go from an internal LED to an external one.  This demonstrates the true power of variables in code.
